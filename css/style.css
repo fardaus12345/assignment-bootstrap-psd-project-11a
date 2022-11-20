@@ -1,0 +1,2947 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* top-menu css */
+
+.top-menu {
+  width: 100%;
+  padding: 10px 0px;
+  background: #f97979;
+  border-bottom: 25px solid #ff7f7f;
+}
+
+.top-menu .top-left a {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(156, 28, 28);
+  margin: 0px 0px 0px 10px;
+}
+
+.top-menu .top-left a:hover {
+  color: #9c1c1c;
+}
+.top-menu .top-left a:focus {
+  color: #9c1c1c;
+}
+
+.top-menu .top-left a i {
+  margin: 0px 10px 0px 0px;
+}
+
+.top-menu .top-right {
+  width: 100%;
+}
+
+.top-menu .top-right ul {
+  display: flex;
+  margin: 0px 0px 0px 215px;
+}
+
+.top-menu .top-right ul li {
+  list-style: none;
+}
+
+.top-menu .top-right ul li a {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #9c1c1c;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+/* header css */
+
+.header .navbar-wrapper {
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+  z-index: 15;
+}
+
+.header .isStuck {
+  left: 0px;
+  width: 100%;
+  background: darkolivegreen;
+}
+
+.header {
+  width: 100%;
+  padding: 0px 0px 5px 0px;
+  background: #ffffff;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0px 5px;
+  font-weight: 400;
+  color: #282828;
+  transition: 1s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #d9bf8f;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus {
+  color: #d9bf8f;
+}
+
+.header .navbar-brand img {
+  margin: 0px 311px 0px 0px;
+}
+
+.header .social-icon .icons {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: 0px 0px 0px -230px;
+}
+
+.header .social-icon .icons li {
+  list-style: none;
+}
+
+.header .social-icon .icons li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 17px;
+  margin: 0px 6px 0px;
+  background: transparent;
+  color: #d9bf8f;
+  border: 1px solid #d9bf8f;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.header .social-icon .icons li a:hover {
+  color: #282828;
+  border: 1px solid #282828;
+}
+.header .social-icon .icons li a:focus {
+  color: #282828;
+  border: 1px solid #282828;
+}
+
+.header .btn-success {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #282828;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #282828;
+  transition: 1s;
+  margin: 0px 10px 0px 0px;
+}
+
+.header .btn-success:hover {
+  background: transparent;
+  border: 1px solid #282828;
+  color: #282828;
+}
+
+.header .btn-success i {
+  font-size: 12px;
+  margin: 0px 0px 0px 4px;
+}
+
+/* banner css */
+
+.banner {
+  width: 100%;
+  background: url(../img/banner-bg.png) center top no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+
+.innner-banner-content {
+  width: 220px;
+  height: 220px;
+  border: 2px solid #ffffff;
+  margin: 70px auto 0px;
+}
+
+.inner-banner {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 8px;
+}
+
+.inner-banner h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  margin: 10px 0px 10px 0px;
+}
+
+.inner-banner h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #282828;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.inner-banner h4 {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+.inner-banner h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #282828;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.inner-banner h4 span {
+  display: inline-block;
+  height: 1px;
+  width: 40px;
+  border: 1px solid #ffffff;
+  margin: 10px 25px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.inner-banner .border-1 {
+  margin: 16px -50px 0px;
+}
+
+.inner-banner .border-2 {
+  width: 25px;
+}
+
+.inner-btn {
+  text-align: center;
+  margin: 50px 0px 80px 0px;
+}
+
+.inner-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #d9bf8f;
+  background: #d9bf8f;
+  color: #ffffff;
+  border-radius: 0px;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+.inner-btn a:hover {
+  color: #ffffff;
+  border: 1px solid #d9bf8f;
+  background: transparent;
+}
+.inner-btn a:focus {
+  color: #ffffff;
+  border: 1px solid #d9bf8f;
+  background: transparent;
+}
+
+/* support css */
+
+.support {
+  width: 100%;
+  padding: 80px 0px 0px 0px;
+}
+
+.support .inner-support-1 {
+  width: 100%;
+  text-align: start;
+}
+
+.support .inner-support-1 h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.support .inner-support-1 p {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.support .inner-support-2 {
+  width: 100%;
+  color: #9c1c1c;
+  text-align: start;
+}
+
+.support .inner-support-2 h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.support .inner-support-2 p {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.support .inner-support-3 {
+  width: 100%;
+  text-align: start;
+}
+
+.support .inner-support-3 h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.support .inner-support-3 p {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.support .inner-sup-img {
+  position: relative;
+}
+
+.support .support-content {
+  position: absolute;
+  transform: translate(103px, -65px);
+}
+
+.support .icon-img {
+  position: absolute;
+  transform: translate(55px, -58px);
+}
+
+.support .icon-img .img-fluid {
+  width: 30px;
+  height: 30px;
+}
+
+/* handpicked css */
+
+.handpicked {
+  width: 100%;
+  padding: 80px 0px;
+}
+.inner-color {
+  position: relative;
+}
+
+.inner-color div {
+  width: 80%;
+  height: 317px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  left: 44px;
+  top: 28px;
+  transition: 1s;
+}
+
+.inner-color .btn-danger {
+  position: absolute;
+  bottom: 50px;
+  left: 128px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #d9bf8f;
+  background: #d9bf8f;
+  color: #ffffff;
+  border-radius: 0px;
+  text-transform: uppercase;
+  transition: 1s;
+  display: none;
+}
+
+.inner-color div:hover + .btn-danger {
+  display: block;
+}
+
+.inner-color div:hover {
+  background: #28282880;
+  border: none;
+}
+
+.inner-color .btn-danger:hover {
+  display: block;
+  border: 1px solid #d9bf8f;
+  background: #d9bf8f;
+  color: #ffffff;
+  border-radius: 0px;
+}
+.inner-color .btn-danger:focus {
+  display: block;
+  border: 1px solid #d9bf8f;
+  background: #d9bf8f;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+.inner-mid-border {
+  width: 80%;
+  height: 93%;
+  border: 2px solid #ffffff;
+  position: absolute;
+  left: 44px;
+  top: 28px;
+  transition: 1s;
+}
+
+.inner-handpicked-img img {
+  width: 100%;
+  margin: 8px 0px 0px 10px;
+  height: 99%;
+}
+
+.featured-mid {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.demo h2 {
+  text-align: center;
+  margin: 0px 0px 0px -40px;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.demo {
+  position: relative;
+  margin: 0 auto 40px;
+  width: 1170px;
+}
+
+.hrber {
+  width: 354px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: -29px;
+}
+
+.hrber-bottom {
+  width: 357px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: 728px;
+}
+
+.skyicon {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 416px;
+}
+
+.skyicon-bottom {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 698px;
+}
+
+/* Summer Collection css */
+
+.Summer-Collection {
+  width: 100%;
+  padding: 80px 0px;
+}
+.Summer-Collection .inner-color {
+  position: relative;
+}
+
+.Summer-Collection .inner-color div {
+  width: 100%;
+  height: 304px;
+  border: none;
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  transition: 1s;
+}
+
+.Summer-Collection .inner-color .btn-danger {
+  position: absolute;
+  bottom: 0px;
+  left: 56px;
+  text-transform: uppercase;
+  transition: 1s;
+  display: block;
+  color: #ffffff;
+  padding-right: 0;
+  background-color: #282828;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 90% 100%, 0% 100%);
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 100% 100%, 0 100%);
+  font-size: 14px;
+  padding: 10px 40px;
+  border: 1px solid #282828;
+  border-radius: 0px;
+  font-weight: 500;
+}
+
+.Summer-Collection .inner-color div:hover + .btn-danger {
+  display: block;
+}
+
+.Summer-Collection .inner-color div:hover {
+  background: #28282880;
+  border: none;
+}
+
+.Summer-Collection .inner-color .btn-danger:hover {
+  display: block;
+  border: 1px solid #f0975c;
+  background: #f0975c;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+.Summer-Collection .inner-color .btn-danger:focus {
+  display: block;
+  border: 1px solid #f0975c;
+  background: #f0975c;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+.Summer-Collection .demo h2 {
+  text-align: center;
+  margin: 0px 0px 0px -40px;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.Summer-Collection .demo {
+  position: relative;
+  margin: 0 auto 40px;
+  width: 1170px;
+}
+
+.Summer-Collection .hrber {
+  width: 354px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: -29px;
+}
+
+.Summer-Collection .hrber-bottom {
+  width: 357px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: 728px;
+}
+
+.Summer-Collection .skyicon {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 416px;
+}
+
+.Summer-Collection .skyicon-bottom {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 698px;
+}
+
+/* our-brand css */
+
+.our-brand {
+  width: 100%;
+  padding: 80px 0px 0px 0px;
+}
+
+.our-brand .demo h2 {
+  text-align: center;
+  margin: 0px 0px 0px -40px;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.our-brand .demo {
+  position: relative;
+  margin: 0px auto 60px;
+  width: 1170px;
+}
+
+.our-brand .hrber {
+  width: 354px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: -29px;
+}
+
+.our-brand .hrber-bottom {
+  width: 357px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: 728px;
+}
+
+.our-brand .skyicon {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 416px;
+}
+
+.our-brand .skyicon-bottom {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 698px;
+}
+
+.our-brand .brand-img {
+  margin: 20px 0px 0px 10px;
+}
+
+/* customers-says css */
+
+.customers-says {
+  width: 100%;
+  padding: 80px 0px 0px 0px;
+}
+
+.customers-says .demo h2 {
+  text-align: center;
+  margin: 0px 0px 0px -40px;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.customers-says .demo {
+  position: relative;
+  margin: 0 auto 40px;
+  width: 1170px;
+}
+
+.customers-says .hrber {
+  width: 354px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: -29px;
+}
+
+.customers-says .hrber-bottom {
+  width: 357px;
+  height: 1px;
+  border-top: 2px solid rgb(98, 94, 94);
+  display: inline-block;
+  margin: 0px 0px 30px 40px;
+  position: absolute;
+  top: 26px;
+  left: 728px;
+}
+
+.customers-says .skyicon {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 416px;
+}
+
+.customers-says .skyicon-bottom {
+  width: 18px;
+  height: 8px;
+  transform: skewX(-42deg) rotate(25deg);
+  display: block;
+  background-color: #d9bf8f;
+  position: absolute;
+  top: 21px;
+  left: 698px;
+}
+
+.inner-customers {
+  width: 100%;
+  background: url(../img/tm-bg.png) center top no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+
+.inner-customers .total-content {
+  margin: 0px 0px 0px 65px;
+}
+
+.inner-customer-content {
+  display: flex;
+}
+
+.img-related-content {
+  margin: 100px 0px 0px 0px;
+}
+
+.img-related-content p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  text-align: start;
+  margin: 0px 0px 50px 0px;
+}
+
+.img-related-content h5 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 800;
+  color: #282828;
+  margin: 10px 0px;
+}
+
+.img-related-content h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #8b8780;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.new-content {
+  text-align: end;
+}
+.new-content p {
+  text-align: end;
+}
+
+/* footer css */
+
+.footer {
+  width: 100%;
+  background: #282828;
+  padding: 80px 0px;
+}
+
+.footer-content h6 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.footer-content ul {
+  margin: 30px 0px 0px -30px;
+}
+
+.footer-content ul li {
+  list-style: none;
+  margin: 0px 0px 10px 0px;
+}
+
+.footer-content ul li a {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(139, 135, 128);
+  text-transform: capitalize;
+}
+
+.footer .social-icon .icons {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 30px 0px 30px -36px;
+}
+
+.footer .social-icon .icons li {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer .social-icon .icons li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  margin: 0px 3px;
+  background: #fff;
+  color: #282828;
+  border: 1px solid #000;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.footer .social-icon .icons li a:hover {
+  border: 1px solid #ffffff;
+  background: #000;
+  color: #ffffff;
+}
+
+.footer-content p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  text-transform: inherit;
+  word-spacing: 2px;
+  font-weight: 600;
+  margin: 0px 0px 30px 0px;
+}
+
+.footer-content .email {
+  width: 100%;
+}
+
+.footer-content .email .form-control {
+  background: transparent;
+  color: #8b8780;
+  border: 1px solid #8b8780;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 12px;
+  padding: 8px 6px;
+  font-weight: 500;
+}
+
+.footer-content .email .form-control:hover {
+  background: transparent;
+  outline: none;
+  border: 1px solid #8b8780;
+  border-radius: 0px;
+  color: #8b8780;
+  box-shadow: none;
+}
+.footer-content .email .form-control:focus {
+  background: transparent;
+  outline: none;
+  border: 1px solid #8b8780;
+  border-radius: 0px;
+  color: #8b8780;
+  box-shadow: none;
+}
+.footer-content .email .form-control:active {
+  background: transparent;
+  outline: none;
+  border: 1px solid #8b8780;
+  border-radius: 0px;
+  color: #8b8780;
+  box-shadow: none;
+}
+.footer-content .button {
+  width: 100%;
+  position: relative;
+}
+
+.footer-content .button a {
+  padding: 6px 16px;
+  border: 1px solid #8b8780;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #8b8780;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0px;
+  position: absolute;
+  top: -33px;
+  left: 164px;
+}
+
+.footer-content .button a:hover {
+  border: 1px solid #8b8780;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #8b8780;
+}
+
+.footer .boder-full {
+  margin: 70px 0px 30px 0px;
+  border-top: 1px solid #8b8780;
+  position: relative;
+}
+
+.footer .boder-full i {
+  font-size: 36px;
+  position: absolute;
+  top: -14px;
+  left: 549px;
+  color: rgb(139, 135, 128);
+}
+
+.footer .copyright {
+  font-size: 14px;
+  line-height: 24px;
+  color: #8b8780;
+}
+
+.footer .copyright span {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+.footer .copyright span:hover {
+  color: #ffffff;
+}
+
+.footer .transaction {
+  width: 100%;
+}
+
+.footer .transaction ul {
+  margin: 0px 0px 0px -35px;
+}
+
+.footer .transaction ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 5px 0px 5px;
+}
+
+.footer .transaction ul li a {
+  font-size: 40px;
+  color: #8b8780;
+  transition: 1s;
+}
+
+.footer .transaction ul li a:hover {
+  color: #ffffff;
+}
+.footer .transaction ul li a:focus {
+  color: #ffffff;
+}
+
+.footer .squre-up ul {
+  width: 100%;
+}
+
+.footer .squre-up ul li {
+  text-align: center;
+  position: relative;
+}
+
+.footer .squre-up ul li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  background: #000;
+  color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 0px;
+  position: absolute;
+  top: 0px;
+  left: 479px;
+}
+
+/***************** **responsive css** ******************/
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS START */
+
+  .top-menu .top-right ul {
+    display: flex;
+    margin: 5px 0px 0px -25px;
+  }
+
+  .top-menu .top-right ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #9c1c1c;
+    text-decoration: none;
+    margin: 0px 5px;
+  }
+
+  .header .navbar-brand img {
+    margin: 0px 311px 20px 0px;
+  }
+
+  .header .social-icon .icons {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 0px 0px 0px -33px;
+  }
+
+  .support .inner-sup-img {
+    position: relative;
+    margin: 0px 0px 0px 135px;
+  }
+
+  .inner-sup-img .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+  }
+  .support .support-content {
+    position: absolute;
+    transform: translate(275px, -95px);
+  }
+
+  .support .icon-img {
+    position: absolute;
+    transform: translate(229px, -84px);
+  }
+
+  .handpicked .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .handpicked .hrber {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 27px;
+  }
+
+  .handpicked .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 225px;
+  }
+
+  .handpicked .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .handpicked .hrber-bottom {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 443px;
+  }
+
+  .handpicked .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 449px;
+  }
+
+  .inner-handpicked-img img {
+    width: 80%;
+    margin: 8px 0px 0px 68px;
+    height: 99%;
+  }
+
+  .inner-color div {
+    width: 67%;
+    height: 503px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 113px;
+    top: 36px;
+    transition: 1s;
+  }
+
+  .inner-color .btn-danger {
+    position: absolute;
+    bottom: 50px;
+    left: 292px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #d9bf8f;
+    background: #d9bf8f;
+    color: #ffffff;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: none;
+  }
+
+  .inner-mid-border {
+    width: 59%;
+    height: 95%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 136px;
+    top: 28px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .Summer-Collection .hrber {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 27px;
+  }
+
+  .Summer-Collection .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 225px;
+  }
+
+  .Summer-Collection .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .Summer-Collection .hrber-bottom {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 443px;
+  }
+
+  .Summer-Collection .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 449px;
+  }
+
+  .Summer-Collection .inner-color div {
+    width: 80%;
+    height: 646px;
+    border: none;
+    position: absolute;
+    left: 68px;
+    top: 8px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .inner-color .btn-danger {
+    position: absolute;
+    bottom: 0px;
+    left: 255px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: block;
+    color: #ffffff;
+    padding-right: 0;
+    background-color: #282828;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 90% 100%, 0% 100%);
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 100% 100%, 0 100%);
+    font-size: 14px;
+    padding: 10px 40px;
+    border: 1px solid #282828;
+    border-radius: 0px;
+    font-weight: 500;
+  }
+
+  .our-brand .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .our-brand .hrber {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 27px;
+  }
+
+  .our-brand .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 225px;
+  }
+
+  .our-brand .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .our-brand .hrber-bottom {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 443px;
+  }
+
+  .our-brand .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 449px;
+  }
+
+  .our-brand .brand-img {
+    margin: 20px 0px 0px 5px;
+  }
+
+  .our-brand .brand-img img {
+    width: 90px;
+    height: 70px;
+  }
+
+  .customers-says .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .customers-says .hrber {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 27px;
+  }
+
+  .customers-says .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 225px;
+  }
+
+  .customers-says .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .customers-says .hrber-bottom {
+    width: 140px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 443px;
+  }
+
+  .customers-says .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 449px;
+  }
+
+  .inner-customers .total-content {
+    margin: 60px 0px 0px 24px;
+  }
+
+  .inner-customer-content {
+    display: flex;
+  }
+
+  .new-content {
+    text-align: end;
+    margin: 100px 0px 0px 163px;
+  }
+
+  .new-img {
+    margin: 40px 0px 0px 0px;
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 30px 0px 30px -253px;
+  }
+
+  .footer-content h6 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer-content ul li {
+    list-style: none;
+    margin: 0px 0px 7px 0px;
+  }
+
+  .footer-content .email {
+    width: 37%;
+  }
+
+  .footer-content .button a {
+    padding: 5px 16px;
+    border: 1px solid #8b8780;
+    border-radius: 0px;
+    color: #ffffff;
+    background: #8b8780;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0px;
+    position: absolute;
+    top: -32px;
+    left: 160px;
+  }
+
+  .footer .boder-full i {
+    font-size: 36px;
+    position: absolute;
+    top: -14px;
+    left: 334px;
+    color: rgb(139, 135, 128);
+  }
+
+  .footer .squre-up ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    background: #000;
+    color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 0px;
+    position: absolute;
+    top: 40px;
+    left: -30px;
+  }
+
+  /* CSS END */
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS START */
+  .top-menu .top-right ul {
+    display: flex;
+    margin: 5px 0px 0px -25px;
+  }
+
+  .top-menu .top-right ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #9c1c1c;
+    text-decoration: none;
+    margin: 0px 5px;
+  }
+
+  .header .navbar-brand img {
+    margin: 0px 311px 20px 0px;
+  }
+
+  .header .social-icon .icons {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 0px 0px 0px -33px;
+  }
+
+  .inner-sup-img .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+  }
+  .support .support-content {
+    position: absolute;
+    transform: translate(136px, -95px);
+  }
+
+  .support .icon-img {
+    position: absolute;
+    transform: translate(85px, -84px);
+  }
+
+  .handpicked .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .handpicked .hrber {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 2px;
+  }
+
+  .handpicked .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 108px;
+  }
+
+  .handpicked .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .handpicked .hrber-bottom {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 310px;
+  }
+
+  .handpicked .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 326px;
+  }
+
+  .inner-handpicked-img img {
+    width: 80%;
+    margin: 8px 0px 0px 44px;
+    height: 99%;
+  }
+
+  .inner-color div {
+    width: 67%;
+    height: 317px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 73px;
+    top: 36px;
+    transition: 1s;
+  }
+
+  .inner-color .btn-danger {
+    position: absolute;
+    bottom: 50px;
+    left: 171px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #d9bf8f;
+    background: #d9bf8f;
+    color: #ffffff;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: none;
+  }
+
+  .inner-mid-border {
+    width: 63%;
+    height: 93%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 83px;
+    top: 28px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .Summer-Collection .hrber {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 2px;
+  }
+
+  .Summer-Collection .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 108px;
+  }
+
+  .Summer-Collection .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .Summer-Collection .hrber-bottom {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 310px;
+  }
+
+  .Summer-Collection .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 326px;
+  }
+
+  .Summer-Collection .inner-color div {
+    width: 80%;
+    height: 424px;
+    border: none;
+    position: absolute;
+    left: 44px;
+    top: 8px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .inner-color .btn-danger {
+    position: absolute;
+    bottom: 0px;
+    left: 138px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: block;
+    color: #ffffff;
+    padding-right: 0;
+    background-color: #282828;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 90% 100%, 0% 100%);
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 100% 100%, 0 100%);
+    font-size: 14px;
+    padding: 10px 40px;
+    border: 1px solid #282828;
+    border-radius: 0px;
+    font-weight: 500;
+  }
+
+  .our-brand .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .our-brand .hrber {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 2px;
+  }
+
+  .our-brand .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 108px;
+  }
+
+  .our-brand .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .our-brand .hrber-bottom {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 310px;
+  }
+
+  .our-brand .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 326px;
+  }
+
+  .our-brand .brand-img {
+    margin: 20px 0px 0px 165px;
+  }
+
+  .customers-says .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .customers-says .hrber {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: 2px;
+  }
+
+  .customers-says .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 108px;
+  }
+
+  .customers-says .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 18px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .customers-says .hrber-bottom {
+    width: 60px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 310px;
+  }
+
+  .customers-says .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 326px;
+  }
+
+  .inner-customers .total-content {
+    margin: 60px 0px 0px 24px;
+  }
+
+  .inner-customer-content {
+    display: inline-block;
+  }
+
+  .new-content {
+    text-align: end;
+    margin: 100px 0px 0px 163px;
+  }
+
+  .new-img {
+    margin: 40px 0px 0px 147px;
+  }
+
+  .footer-content h6 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer-content ul li {
+    list-style: none;
+    margin: 0px 0px 7px 0px;
+  }
+
+  .footer-content .email {
+    width: 57%;
+  }
+
+  .footer-content .button a {
+    padding: 5px 16px;
+    border: 1px solid #8b8780;
+    border-radius: 0px;
+    color: #ffffff;
+    background: #8b8780;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0px;
+    position: absolute;
+    top: -32px;
+    left: 164px;
+  }
+
+  .footer .boder-full i {
+    font-size: 36px;
+    position: absolute;
+    top: -14px;
+    left: 219px;
+    color: rgb(139, 135, 128);
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 30px 0px 30px -132px;
+  }
+
+  .footer .squre-up ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    background: #000;
+    color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 0px;
+    position: absolute;
+    top: 40px;
+    left: -30px;
+  }
+
+  /* CSS END */
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS START */
+
+  .top-menu .top-right ul {
+    display: flex;
+    margin: 0px 0px 0px -22px;
+  }
+
+  .top-menu .top-right ul li a {
+    font-size: 10px;
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #9c1c1c;
+    text-decoration: none;
+    margin: 0px 7px 0px 0px;
+  }
+
+  .header .navbar-brand img {
+    margin: 0px 311px 20px 0px;
+  }
+
+  .header .social-icon .icons {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 0px 0px 0px -33px;
+  }
+
+  .header .btn-success {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #282828;
+    border-radius: 0px;
+    color: #ffffff;
+    background: #282828;
+    transition: 1s;
+    margin: -1px 0px 15px 6px;
+  }
+
+  .inner-sup-img .img-fluid {
+    max-width: 100%;
+    height: 80px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .support .support-content {
+    position: absolute;
+    transform: translate(76px, -88px);
+  }
+
+  .support .icon-img {
+    position: absolute;
+    transform: translate(36px, -77px);
+  }
+
+  .support .icon-img .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .support .inner-support-1 h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .support .inner-support-3 h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .support .inner-support-2 h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .handpicked .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .handpicked .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .handpicked .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .handpicked .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 15px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .handpicked .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 212px;
+  }
+
+  .handpicked .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 230px;
+  }
+
+  .inner-handpicked-img img {
+    width: 100%;
+    margin: 8px 0px 0px 0px;
+    height: 99%;
+  }
+
+  .inner-color div {
+    width: 85%;
+    height: 255px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 22px;
+    top: 28px;
+    transition: 1s;
+  }
+
+  .inner-color .btn-danger {
+    position: absolute;
+    bottom: 43px;
+    left: 90px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #d9bf8f;
+    background: #d9bf8f;
+    color: #ffffff;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: none;
+  }
+
+  .inner-mid-border {
+    width: 80%;
+    height: 90%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 29px;
+    top: 32px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .Summer-Collection .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .Summer-Collection .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .Summer-Collection .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 15px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .Summer-Collection .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 212px;
+  }
+
+  .Summer-Collection .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 230px;
+  }
+
+  .Summer-Collection .inner-color div {
+    width: 100%;
+    height: 344px;
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .inner-color .btn-danger {
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: block;
+    color: #ffffff;
+    padding-right: 0;
+    background-color: #282828;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 90% 100%, 0% 100%);
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 100% 100%, 0 100%);
+    font-size: 14px;
+    padding: 10px 40px;
+    border: 1px solid #282828;
+    border-radius: 0px;
+    font-weight: 500;
+  }
+
+  .our-brand .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .our-brand .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .our-brand .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .our-brand .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 15px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .our-brand .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 212px;
+  }
+
+  .our-brand .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 230px;
+  }
+
+  .our-brand .brand-img {
+    margin: 40px 0px 0px 73px;
+  }
+
+  .customers-says .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .customers-says .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .customers-says .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .customers-says .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 15px;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .customers-says .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 212px;
+  }
+
+  .customers-says .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 230px;
+  }
+
+  .inner-customers .total-content {
+    margin: 60px 0px 0px 24px;
+  }
+
+  .inner-customer-content {
+    display: inline-block;
+  }
+
+  .footer-content h6 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer-content ul li {
+    list-style: none;
+    margin: 0px 0px 6px 0px;
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 30px 0px 30px -58px;
+  }
+
+  .footer .social-icon .icons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 0px 5px;
+    background: #fff;
+    color: #282828;
+    border: 1px solid #000;
+    border-radius: 100%;
+    transition: 1s;
+  }
+
+  .footer .boder-full i {
+    font-size: 36px;
+    position: absolute;
+    top: -14px;
+    left: 139px;
+    color: rgb(139, 135, 128);
+  }
+
+  .footer-content p {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    text-transform: inherit;
+    word-spacing: 2px;
+    font-weight: 600;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .footer-content .button a {
+    padding: 6px 16px;
+    border: 1px solid #8b8780;
+    border-radius: 0px;
+    color: #ffffff;
+    background: #8b8780;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0px;
+    position: absolute;
+    top: -33px;
+    left: 200px;
+  }
+
+  .footer .squre-up ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    background: #000;
+    color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 0px;
+    position: absolute;
+    top: 50px;
+    left: -30px;
+  }
+
+  /* CSS END */
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  /* CSS START */
+
+  .top-menu .top-right ul {
+    display: flex;
+    margin: 0px 0px 0px -22px;
+  }
+
+  .top-menu .top-right ul li a {
+    font-size: 8px;
+    line-height: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #9c1c1c;
+    text-decoration: none;
+    margin: 0px 7px 0px 0px;
+  }
+
+  .header .navbar-brand img {
+    margin: 0px 311px 20px 0px;
+  }
+
+  .header .social-icon .icons {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 0px 0px 0px -33px;
+  }
+
+  .header .btn-success {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #282828;
+    border-radius: 0px;
+    color: #ffffff;
+    background: #282828;
+    transition: 1s;
+    margin: 56px 0px 15px -179px;
+  }
+
+  .inner-sup-img .img-fluid {
+    max-width: 100%;
+    height: 80px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .support .support-content {
+    position: absolute;
+    transform: translate(76px, -88px);
+  }
+
+  .support .icon-img {
+    position: absolute;
+    transform: translate(36px, -77px);
+  }
+
+  .support .icon-img .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .support .inner-support-1 h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .support .inner-support-3 h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .support .inner-support-2 h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .handpicked .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .handpicked .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .handpicked .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .handpicked .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 12px;
+    line-height: 53px;
+    text-transform: capitalize;
+  }
+
+  .handpicked .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 168px;
+  }
+
+  .handpicked .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 185px;
+  }
+
+  .inner-handpicked-img img {
+    width: 100%;
+    margin: 8px 0px 0px 0px;
+    height: 99%;
+  }
+
+  .inner-color div {
+    width: 85%;
+    height: 215px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 19px;
+    top: 28px;
+    transition: 1s;
+  }
+
+  .inner-color .btn-danger {
+    position: absolute;
+    bottom: 43px;
+    left: 73px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #d9bf8f;
+    background: #d9bf8f;
+    color: #ffffff;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: none;
+  }
+
+  .inner-mid-border {
+    width: 80%;
+    height: 90%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 26px;
+    top: 28px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .Summer-Collection .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .Summer-Collection .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .Summer-Collection .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 12px;
+    line-height: 53px;
+    text-transform: capitalize;
+  }
+
+  .Summer-Collection .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 168px;
+  }
+
+  .Summer-Collection .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 185px;
+  }
+
+  .Summer-Collection .inner-color div {
+    width: 100%;
+    height: 296px;
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    transition: 1s;
+  }
+
+  .Summer-Collection .inner-color .btn-danger {
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+    text-transform: uppercase;
+    transition: 1s;
+    display: block;
+    color: #ffffff;
+    padding-right: 0;
+    background-color: #282828;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 90% 100%, 0% 100%);
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 100% 100%, 0 100%);
+    font-size: 14px;
+    padding: 10px 40px;
+    border: 1px solid #282828;
+    border-radius: 0px;
+    font-weight: 500;
+  }
+
+  .our-brand .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .our-brand .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .our-brand .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .our-brand .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 12px;
+    line-height: 53px;
+    text-transform: capitalize;
+  }
+
+  .our-brand .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 168px;
+  }
+
+  .our-brand .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 185px;
+  }
+
+  .our-brand .brand-img {
+    margin: 40px 0px 0px 55px;
+  }
+
+  .customers-says .demo {
+    position: relative;
+    margin: 0px 0px 40px;
+    width: 100%;
+  }
+
+  .customers-says .hrber {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 26px;
+    left: -29px;
+  }
+
+  .customers-says .skyicon {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+  }
+
+  .customers-says .demo h2 {
+    text-align: center;
+    margin: 0px 0px 0px -7px;
+    font-size: 12px;
+    line-height: 53px;
+    text-transform: capitalize;
+  }
+
+  .customers-says .hrber-bottom {
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid rgb(98, 94, 94);
+    display: inline-block;
+    margin: 0px 0px 30px 40px;
+    position: absolute;
+    top: 27px;
+    left: 168px;
+  }
+
+  .customers-says .skyicon-bottom {
+    width: 18px;
+    height: 8px;
+    transform: skewX(-42deg) rotate(25deg);
+    display: block;
+    background-color: #d9bf8f;
+    position: absolute;
+    top: 24px;
+    left: 185px;
+  }
+
+  .inner-customers .total-content {
+    margin: 60px 0px 0px -2px;
+  }
+
+  .inner-customer-content {
+    display: inline-block;
+  }
+
+  .footer-content h6 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer-content ul li {
+    list-style: none;
+    margin: 0px 0px 6px 0px;
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 30px 0px 30px -46px;
+  }
+
+  .footer .social-icon .icons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 0px 3px;
+    background: #fff;
+    color: #282828;
+    border: 1px solid #000;
+    border-radius: 100%;
+    transition: 1s;
+  }
+
+  .footer .boder-full i {
+    font-size: 36px;
+    position: absolute;
+    top: -14px;
+    left: 117px;
+    color: rgb(139, 135, 128);
+  }
+
+  .footer-content p {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    text-transform: inherit;
+    word-spacing: 2px;
+    font-weight: 600;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .footer-content .button a {
+    padding: 6px 16px;
+    border: 1px solid #8b8780;
+    border-radius: 0px;
+    color: #ffffff;
+    background: #8b8780;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0px;
+    position: absolute;
+    top: -33px;
+    left: 159px;
+  }
+
+  .footer .squre-up ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    background: #000;
+    color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 0px;
+    position: absolute;
+    top: 50px;
+    left: -30px;
+  }
+
+  /* CSS END */
+}
